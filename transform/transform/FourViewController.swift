@@ -12,14 +12,6 @@ class FourViewController: UIViewController, UIGestureRecognizerDelegate {
     var rectangle = UIView()
     var array: [UIView] = []
     
-    var touchFirstX: CGFloat = 0
-    var touchFirstY: CGFloat = 0
-    
-    var touchLastX: CGFloat = 0
-    var touchLastY: CGFloat = 0
-    
-    var index = 0
-    
     func draw() {
         rectangle.backgroundColor = .blue
         view.addSubview(rectangle)
